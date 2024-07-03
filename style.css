@@ -1,0 +1,400 @@
+:root{
+    --gradient--color:linear-gradient(120deg,#D708DE,#1fb3dc);
+}
+
+body{
+    margin: 0;
+    /* background-color: #000E34; */
+    background: linear-gradient(to bottom,#000E34,#465D9F);
+}
+section,div,h4{
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    width: 100%;
+    background-color: #fff;
+    padding: 10px 0px;
+}
+.brand,.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 50px;
+}
+
+.brand img{
+    height: 30px;
+}
+
+.notification{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 80px;
+    gap: 4px;
+    background-color: purple;
+    background-image: linear-gradient(to right,#00BA90,#0095C1);
+    border-radius: 20px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+
+.fa-sort-desc{
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    gap: 15px;
+}
+
+/* Navbar ends here */
+
+/* Hero Section */
+.hero-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90vh;
+    background-image: url("./images/astral-wallpapers-composition-with-purple-sky.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    border-radius: 25px;
+    background-image: var(--gradient--color);
+    color: #fff;
+    cursor: pointer;
+    border: 2px solid #dff;
+    padding: 3px 20px;
+    gap: 8px;
+}
+
+.left{
+    width: 300px;
+    color: #fff;
+}
+.left h2{
+    font-family: 'Roboto', sans-serif;
+}
+
+.left h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: lighter;
+    margin-top: 0;
+}
+.left h1 span{
+    display: inline-block;
+    font-weight: 800;
+    color: #fff;  
+}
+
+
+
+.right{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: #fff;
+}
+
+.lorem{
+    display: flex;
+    justify-content: none;
+    align-items: center;
+    width: 300px;
+    height: 60px;
+    border-radius: 25px 10px 10px 25px;
+    background-color: #773095;
+}
+
+.capsule{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 54px;
+    width: 220px;
+    gap: 20px;
+    background-color: #06142F;
+    margin: 20px 5px;
+    border-radius: 25px 0px 0px 25px;
+}
+
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    background-color: #fff;
+    border-radius: 100%;
+    color:black;
+}
+
+.square{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 70px;
+    background-color: #773095;
+    border-radius: none;
+    margin: 0;
+    padding: 0;
+}
+.square span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    color: purple;
+    font-weight: 900;
+}
+/* Hero section ends hero */
+
+/* Streaming projects */
+
+.streaming-projects{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 20vh;
+    color: #fff;
+}
+
+.streaming-projects p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 40px;
+    background-image: var(--gradient--color);
+    border-radius: 25px;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+.streaming-projects span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    padding: 7px;
+    height: 10px;
+    width: 10px;
+    margin: 0px 15px;
+    color: purple;
+    background-color: #fff;
+    font-weight: 800;
+}
+
+.streaming-projects div{
+    padding: 80px 180px;
+}
+
+/* Streaming projects ends here */
+
+/* projects */
+
+.projects{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    height: 50vh;
+    padding: 0;
+    margin:0;
+}
+
+/* project */
+
+.project{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 200px;
+    background-color: #0077FF;
+    border-radius: 10px;
+}
+
+.project img{
+    height: 120px;
+    width: 180px;
+    /* background-color: aquamarine; */
+    border-radius: 5px;
+}
+
+.action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.action i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #004A9E;
+    height: 30px;
+    width: 30px;
+    padding: 0px;
+    color: #dff;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.action p{
+    width: 120px;
+    height: 20px;
+    text-align: center;
+    padding: 2px;
+    color: #dff;
+    background-color: #005BD1;
+    border-radius: 50px;
+}
+
+/* project end */
+
+/* projects end here */
+
+/* main body */
+
+.main-body{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    color: #dff;
+    padding: 200px;
+    padding-top: 50px;
+}
+
+.main-body div{
+    margin: 50px 100px;
+}
+
+.image img .laptop,.desktop{
+    width: 400px;
+    margin: 0;
+    padding: 0;
+}
+.laptop{
+    height: 300px;
+}
+.desktop{
+    height: 400px;
+}
+
+.highlighted{
+    color: cyan;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.description h3{
+    margin: 0;
+}
+
+/* main body ends here */
+
+
+/* lower section starts */
+
+.lower-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50vh;
+    color: #dff;
+    margin: 0;
+    padding: 0;
+    background-image: url("./images/blueprint.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.lower-section .description{
+    width: 400px;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    padding: 10px;
+    border-radius: 10px;
+    background-image: var(--gradient--color);
+}
+
+.img img{
+    height: 220px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+/* lower section end here */
+
+/* Footer section */
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #dff;
+    height: 5vh;
+    background-color:#00113E;
+    padding: 25px 0px;
+}
+
+.pages{
+    display: flex;
+    gap: 20px;
+}
+
+.pages div{
+    cursor: pointer;
+}
+
+.copyright a{
+    text-decoration: none;
+    color: teal;
+    font-weight: 600;
+}
+
+.logo img{
+    height: 20px;
+}
+
+/* footer section end */
